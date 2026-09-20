@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Marquee } from './components/Marquee';
@@ -10,27 +10,11 @@ import { Contact } from './components/Contact';
 import { ResumeModal } from './components/ResumeModal';
 
 export function App() {
-  const [darkMode, setDarkMode] = useState(false);
   const [resumeOpen, setResumeOpen] = useState(false);
-
-  useEffect(() => {
-    if (darkMode) {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  const handleToggleTheme = () => {
-    setDarkMode(!darkMode);
-  };
 
   return (
     <div className="portfolio-app">
-      <Navbar 
-        darkMode={darkMode} 
-        onToggleTheme={handleToggleTheme} 
-      />
+      <Navbar />
       
       <main>
         <Hero onOpenResume={() => setResumeOpen(true)} />
