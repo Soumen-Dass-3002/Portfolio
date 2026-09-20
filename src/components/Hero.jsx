@@ -10,7 +10,7 @@ export function Hero({ onOpenResume }) {
   return (
     <section className="hero shell" id="top">
       <h1 className="hero-roles-headline">
-        <span className="highlight-hero-role">Full-stack developer</span> · <span className="highlight-hero-role">Data analyst</span> · <span className="highlight-hero-role">AI builder</span>
+        <span className="highlight-hero-role">Full-stack developer</span> · <span className="highlight-hero-role">Data analyst</span> · <span className="highlight-hero-role">AI builder</span> ·
       </h1>
 
       <div className="hero-bottom">

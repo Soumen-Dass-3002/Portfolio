@@ -10,8 +10,7 @@ export function Skills() {
 
       <div className="skills-layout">
         <h2>
-          Tools I’m<br />
-          <em>growing with.</em>
+          My toolkit
         </h2>
 
         <div className="skill-cloud">
