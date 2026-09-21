@@ -21,12 +21,12 @@ A high-performance, responsive executive portfolio built for **Soumen Dass** —
 ## Design & Key Features
 
 - **Editorial Paper Aesthetic**: Styled with a curated palette (`#f4f1eb` Paper, `#141414` Ink, `#d6ff32` Acid Green) and typography (`DM Sans`, `DM Mono`, `Playfair Display`).
-- ** 100% Mobile Responsive**: Seamless layout across all screen sizes (320px to 4K) with a Right-to-Left Slide-over Drawer Sidebar navigation on mobile.
-- ** Satellite Skill & Social Orbs**: Floating animated orbs (`Node.js`, `LinkedIn`, `GitHub`, `Python`) surrounding the circular hero portrait.
-- ** Graph Scale Grid Background**: Custom masked SVG grid pattern overlaying the hero section.
-- ** Real-World Analytics Highlights**: Featured Kaggle Netflix 10,000+ record Exploratory Data Analysis (EDA) & Data Analyst internship at Unessa Foundation.
-- ** Custom Recognition Badges**: Highlights 10th Rank in Junior Coding Olympiad (out of 16,850+ competitors) and 5th Rank in Newton School of Technology AI Hackathon.
-- ** Executive Resume Viewer**: Integrated printable resume modal.
+- **100% Mobile Responsive**: Seamless layout across all screen sizes (320px to 4K) with a Right-to-Left Slide-over Drawer Sidebar navigation on mobile.
+- **Satellite Skill & Social Orbs**: Floating animated orbs (`Node.js`, `LinkedIn`, `GitHub`, `Python`) surrounding the circular hero portrait.
+- **Graph Scale Grid Background**: Custom masked SVG grid pattern overlaying the hero section.
+- **Real-World Analytics Highlights**: Featured Kaggle Netflix 10,000+ record Exploratory Data Analysis (EDA) & Data Analyst internship at Unessa Foundation.
+- **Custom Recognition Badges**: Highlights 10th Rank in Junior Coding Olympiad (out of 16,850+ competitors) and 5th Rank in Newton School of Technology AI Hackathon.
+- **Executive Resume Viewer**: Integrated printable resume modal.
 
 ---
 
