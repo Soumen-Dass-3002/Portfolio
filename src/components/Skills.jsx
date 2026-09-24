@@ -9,7 +9,7 @@ export function Skills() {
       </div>
 
       <div className="skills-layout">
-        <h2>Skills<br />by <em>That I have.</em></h2>
+        <h2>Skills<br /><em>That I have.</em></h2>
 
         <div className="skill-categories">
           {skillCategories.map((category) => (
