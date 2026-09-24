@@ -48,7 +48,7 @@ export const projects = [
     number: "01",
     title: "AI Knowledge & Analytics Platform",
     type: "AI & Full-Stack Application",
-    label: "Active Project",
+    label: "Project in progress",
     className: "project-one",
     description: "An intelligent AI system that ingests document datasets, generates automated analytical summaries, and answers questions with citation tracking.",
     tags: ["React", "Python", "Gen AI", "REST APIs", "Tailwind CSS"],
@@ -60,7 +60,7 @@ export const projects = [
     number: "02",
     title: "Kaggle Netflix EDA & Data Analytics Dashboard",
     type: "Data Analytics & EDA",
-    label: "Active Project",
+    label: "Project in progress",
     className: "project-two",
     description: "Performed data cleaning and Exploratory Data Analysis (EDA) on 10,000+ Netflix records from Kaggle to uncover key content trends.",
     tags: ["Python", "Pandas", "SQL", "React", "EDA"],
@@ -72,7 +72,7 @@ export const projects = [
     number: "03",
     title: "Modern Full-Stack Enterprise Platform",
     type: "Web Development",
-    label: "Active Project",
+    label: "Project in progress",
     className: "project-three",
     description: "Scalable web platform with RESTful API architecture, user authentication, and reactive dashboard widgets.",
     tags: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
@@ -92,6 +92,17 @@ export const experienceItem = {
   chips: ["Data cleaning", "Data organisation", "Program records", "SQL"]
 };
 
+export const currentExperienceItem = {
+  role: "AI Prompt Engineer",
+  company: "InAmigos Foundation (IAF)",
+  sub: "Remote internship · Sonipat, Haryana",
+  period: "Sep 2026 — Present",
+  type: "Internship",
+  logo: "/inamigos-logo.png",
+  description: "Creating, testing, and refining structured prompts for planning, learning, problem-solving, research, and idea generation. I evaluate AI outputs to understand how instructions shape quality and usefulness.",
+  chips: ["Prompt design", "Generative AI", "AI evaluation", "Research"]
+};
+
 export const achievementsList = [
   {
     rank: "01",
@@ -107,19 +118,24 @@ export const achievementsList = [
   }
 ];
 
-export const skillsList = [
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "Node.js",
-  "Express",
-  "MongoDB",
-  "SQL",
-  "Python",
-  "Pandas",
-  "Prisma",
-  "REST APIs",
-  "Figma",
-  "Gen AI",
-  "Git & GitHub"
+export const skillCategories = [
+  {
+    title: "Frontend & design",
+    skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Figma"]
+  },
+  {
+    title: "Backend & databases",
+    skills: ["Node.js", "Express", "MongoDB", "SQL", "Prisma ORM", "REST APIs"]
+  },
+  {
+    title: "Data & AI",
+    skills: ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Seaborn", "Gen AI"]
+  },
+  {
+    title: "Workflow",
+    skills: ["Git & GitHub", "API integration", "CRUD operations", "Prompt engineering"]
+  }
 ];
+
+// Kept for the downloadable resume modal; the visible portfolio groups these above.
+export const skillsList = skillCategories.flatMap((category) => category.skills);

@@ -1,4 +1,4 @@
-# Soumen Dass - Portfolio
+# ✦ Soumen Dass — Executive Developer & Data Portfolio
 
 ![Portfolio Banner](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/Tech_Stack-React_%7C_Vite_%7C_JavaScript_%7C_CSS3-blue?style=for-the-badge)
@@ -8,29 +8,29 @@ A high-performance, responsive executive portfolio built for **Soumen Dass** —
 
 ---
 
-## Live Demo & Socials
+## 🌟 Live Demo & Socials
 
-- **Live Portfolio**: [soumen-dass-portfolio.vercel.app](https://soumen-dass-portfolio.vercel.app/)
-- **LinkedIn**: [soumen-dass](https://www.linkedin.com/in/soumen-dass-a69b94317/)
-- **GitHub**: [Soumen-Dass-3002](https://github.com/Soumen-Dass-3002)
-- **Email**: [soumendass3002@gmail.com](mailto:soumendass3002@gmail.com)
-- **WhatsApp**: [+91 8882241153](https://wa.me/918882241153)
+- 🚀 **Live Portfolio**: [soumen-dass-portfolio.vercel.app](https://soumen-dass-portfolio.vercel.app/)
+- 💼 **LinkedIn**: [soumen-dass](https://www.linkedin.com/in/soumen-dass-a69b94317/)
+- 🐙 **GitHub**: [Soumen-Dass-3002](https://github.com/Soumen-Dass-3002)
+- ✉️ **Email**: [soumendass3002@gmail.com](mailto:soumendass3002@gmail.com)
+- 📱 **WhatsApp**: [+91 8882241153](https://wa.me/918882241153)
 
 ---
 
-## Design & Key Features
+## 🎨 Design & Key Features
 
 - **Editorial Paper Aesthetic**: Styled with a curated palette (`#f4f1eb` Paper, `#141414` Ink, `#d6ff32` Acid Green) and typography (`DM Sans`, `DM Mono`, `Playfair Display`).
-- **100% Mobile Responsive**: Seamless layout across all screen sizes (320px to 4K) with a Right-to-Left Slide-over Drawer Sidebar navigation on mobile.
-- **Satellite Skill & Social Orbs**: Floating animated orbs (`Node.js`, `LinkedIn`, `GitHub`, `Python`) surrounding the circular hero portrait.
-- **Graph Scale Grid Background**: Custom masked SVG grid pattern overlaying the hero section.
-- **Real-World Analytics Highlights**: Featured Kaggle Netflix 10,000+ record Exploratory Data Analysis (EDA) & Data Analyst internship at Unessa Foundation.
-- **Custom Recognition Badges**: Highlights 10th Rank in Junior Coding Olympiad (out of 16,850+ competitors) and 5th Rank in Newton School of Technology AI Hackathon.
-- **Executive Resume Viewer**: Integrated printable resume modal.
+- **📱 100% Mobile Responsive**: Seamless layout across all screen sizes (320px to 4K) with a Right-to-Left Slide-over Drawer Sidebar navigation on mobile.
+- **🪐 Satellite Skill & Social Orbs**: Floating animated orbs (`Node.js`, `LinkedIn`, `GitHub`, `Python`) surrounding the circular hero portrait.
+- **📈 Graph Scale Grid Background**: Custom masked SVG grid pattern overlaying the hero section.
+- **📊 Real-World Analytics Highlights**: Featured Kaggle Netflix 10,000+ record Exploratory Data Analysis (EDA) & Data Analyst internship at Unessa Foundation.
+- **🏆 Custom Recognition Badges**: Highlights 10th Rank in Junior Coding Olympiad (out of 16,850+ competitors) and 5th Rank in Newton School of Technology AI Hackathon.
+- **📄 Executive Resume Viewer**: Integrated printable resume modal.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Core**: React 18, JavaScript (ES6+), HTML5
 - **Styling**: Vanilla CSS3, CSS Custom Variables, Modern Flexbox & Grid Systems
@@ -40,7 +40,7 @@ A high-performance, responsive executive portfolio built for **Soumen Dass** —
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Portfolio-1/
@@ -69,3 +69,48 @@ Portfolio-1/
 ├── index.html                # HTML5 Template with OpenGraph & Schema.org
 ├── package.json
 └── vite.config.js
+```
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** (v18.0 or higher) installed.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Soumen-Dass-3002/Portfolio-1.git
+   cd Portfolio-1
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+<p align="center">
+  Crafted with precision by <b>Soumen Dass</b> © 2026
+</p>

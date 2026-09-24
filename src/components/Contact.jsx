@@ -11,11 +11,11 @@ export function Contact() {
   return (
     <footer id="contact">
       <div className="footer-shell shell">
-        <p className="footer-kicker">Let's Connect with each other</p>
+        <p className="footer-kicker">Open to internships · freelance opportunities · collaborations</p>
 
         <h2>
-          Contact<br />
-          <em>me.</em>
+          Let’s build<br />
+          <em>something useful.</em>
         </h2>
 
         <div className="contact-actions-row">
@@ -24,7 +24,12 @@ export function Contact() {
           </a>
         </div>
 
-        <div className="social-links-bar">
+        <div className="contact-intro">
+          <p>Have a role, an idea, or a problem that needs a thoughtful builder? I’d love to hear about it.</p>
+          <a className="contact-phone" href={`tel:${personalInfo.phone.replace(/\s/g, '')}`}>Call or WhatsApp: {personalInfo.phone}</a>
+        </div>
+
+        <div className="social-links-bar" aria-label="Social links">
           <a className="social-link-item" href={personalInfo.socials.linkedin} target="_blank" rel="noopener noreferrer">
             LinkedIn ↗
           </a>

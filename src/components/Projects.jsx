@@ -22,6 +22,8 @@ export function Projects() {
         </p>
       </div>
 
+      <p className="projects-status"><span>●</span> All featured projects are currently in progress</p>
+
       <div className="project-grid">
         {projects.map((project) => (
           <article className={`project-card ${project.className}`} key={project.id}>
@@ -39,9 +41,7 @@ export function Projects() {
                 <h3>{project.title}</h3>
                 <p>{project.type}</p>
               </div>
-              <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title}`}>
-                <Arrow />
-              </a>
+              <span className="progress-mark" aria-label="Project in progress">⌛</span>
             </div>
           </article>
         ))}

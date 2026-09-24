@@ -1,5 +1,5 @@
 import React from 'react';
-import { skillsList } from '../data/portfolioData';
+import { skillCategories } from '../data/portfolioData';
 
 export function Skills() {
   return (
@@ -9,15 +9,16 @@ export function Skills() {
       </div>
 
       <div className="skills-layout">
-        <h2>
-          My toolkit
-        </h2>
+        <h2>Skills, organised<br />by <em>how I build.</em></h2>
 
-        <div className="skill-cloud">
-          {skillsList.map((skill, index) => (
-            <span key={skill} className={`skill skill-${index}`}>
-              {skill}
-            </span>
+        <div className="skill-categories">
+          {skillCategories.map((category) => (
+            <section className="skill-category" key={category.title}>
+              <h3>{category.title}</h3>
+              <div className="skill-cloud">
+                {category.skills.map((skill) => <span key={skill} className="skill">{skill}</span>)}
+              </div>
+            </section>
           ))}
         </div>
       </div>
