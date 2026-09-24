@@ -128,8 +128,8 @@ export const skillCategories = [
     skills: ["Node.js", "Express", "MongoDB", "SQL", "Prisma ORM", "REST APIs"]
   },
   {
-    title: "Data & AI",
-    skills: ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Seaborn", "Gen AI"]
+    title: "Data",
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Gen AI"]
   },
   {
     title: "Workflow",
